@@ -1,0 +1,309 @@
+body {
+    font-family: 'Lato', sans-serif;
+   background-color: #fff;
+   color: #333;
+}
+
+.btn {
+    padding: 8px 28px !important;
+    font-size: 0.9rem !important;
+}
+
+.primaryColor {
+    color: #ed4264;
+}
+
+h2::after {
+    display: block;
+    content: "";
+    height: 3px;
+    width: 100px;
+    background-color: #ed4264;
+    margin: 20px auto;
+}
+
+.navbar-brand {
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+.navbar {
+    opacity: 0.9;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    margin-left: 12px;
+    color: #333;
+    font-weight: 600;
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link.active{
+    color: #ed4264 !important; 
+}
+
+.carousel-indicators li {
+    width: 12px !important;
+    height: 12px !important;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    background-color: #333;
+}
+
+.carousel-indicators li.active {
+    background-color: #ed4264 !important;
+    width: 14px !important;
+    height: 14px !important;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
+    margin-top: -1px;
+}
+
+
+#showcase .carousel-item {
+    height: 700px;
+}
+
+.carousel-caption  {
+    padding-bottom: 280px;
+}
+
+.carousel-caption h3,
+.carousel-caption h1 {
+    letter-spacing: 1px;
+}
+
+.carousel-caption .btn {
+    padding: 10px 30px !important;
+}
+
+.showcase-image-1 {
+    background:linear-gradient(rgb(0, 0, 0,0.4),rgb(0, 0, 0,0.4)), url(../images/croatia.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.showcase-image-2 {
+    background:linear-gradient(rgb(0, 0, 0,0.4),rgb(0, 0, 0,0.4)), url(../images/greece.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.showcase-image-3 {
+    background: linear-gradient(rgb(0, 0, 0,0.5),rgb(0, 0, 0,0.5)), url(../images/london.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.showcase-image-4 {
+    background: linear-gradient(rgb(0, 0, 0,0.4),rgb(0, 0, 0,0.4)), url(../images/paris.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.showcase-image-5 {
+    background: linear-gradient(rgb(0, 0, 0,0.6),rgba(0, 0, 0, 0.6)), url(../images/prague.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.showcase-image-6 {
+    background: linear-gradient(rgb(0, 0, 0,0.6),rgba(0, 0, 0, 0.6)), url(../images/rome.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.showcase-image-7 {
+    background: linear-gradient(rgb(0, 0, 0,0.6),rgba(0, 0, 0, 0.6)), url(../images/spain.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+.btn-full {
+    background-color: #ed4264;
+    color: #fff;
+}
+
+.btn-full:hover {
+    color: #fff !important;
+}
+
+.btn-outline-full {
+    border: 1px solid #12c2e9;
+    color: #333;
+    background: #fff;
+}
+
+.btn-outline-full:hover {
+    border: 1px solid #ed4264;
+    background: #ed4264;
+    color: #fff;
+}
+
+
+#search .container {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: -110px;
+}
+
+#search label {
+    font-weight: 600;
+}
+
+
+#search .input-group-text {
+    background-color: rgb(237, 66, 100,0.9);
+    color: #fff;
+}
+
+.container-fluid {
+    margin: 0;
+    padding: 0;
+}
+
+#city {
+    overflow: hidden;
+}
+
+#city h3 {
+    text-align: center;
+    margin-top: 10px;
+    color: #ed4264;
+}
+
+.owl-dots {
+    margin-top: 30px !important;
+}
+
+.owl-theme .owl-dots .owl-dot.active span {
+    background: #ed4264 !important;
+}
+
+#apartment .card {
+    border-radius: 10px !important;
+    -webkit-border-radius: 10px !important;
+    -moz-border-radius: 10px !important;
+    -ms-border-radius: 10px !important;
+    -o-border-radius: 10px !important;
+}
+
+#apartment img {
+    min-height: 180px;
+}
+
+#apartment h4 {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+#apartment h5 {
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+#apartment h6 {
+    font-size: 0.8rem;
+}
+
+
+#homeSearch {
+    background: linear-gradient(rgb(0, 0, 0,0.8),rgb(0, 0, 0,0.8)), url(../images/homeSearch_bg.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.owl-carousel {
+    display: block !important;
+}
+
+#review .carousel-inner {
+    padding-bottom: 80px;
+}
+
+#review .fa {
+    color: #333;
+}
+
+#blog h5 {
+    font-weight: 700;
+    color: #ed4264;
+}
+
+#contact h5:hover {
+    cursor: pointer;
+    color: #ed4264;
+}
+
+#main-footer {
+    background: linear-gradient(rgb(0, 0, 0,0.9),rgb(0, 0, 0,0.9)), url(../images/city_night.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+#main-footer,
+#main-footer h6 {
+    font-size: 0.9rem;
+}
+
+#main-footer h5 {
+    font-weight: 700;
+}
+
+#main-footer #newsletter h6 {
+    line-height: 30px;
+}
+
+#main-footer h5:after {
+    display: block;
+    content: "";
+    height: 3px;
+    width: 50px;
+    background-color: #ed4264;
+    margin: 10px 0;
+}
+
+#main-footer ul {
+    list-style: none;
+    padding: 0 !important;
+}
+
+#main-footer ul li {
+    margin-bottom: 10px;
+}
+
+#main-footer ul li a {
+    text-decoration: none;
+    color:#fff;
+}
+
+#main-footer ul li a:hover {
+    color: #ed4264;
+}
+
+#main-footer .input-group-text {
+    background-color: #ed4264;
+    color:#fff;
+}
+
+#copyright{
+    background-color: #000;
+}
+
+#copyright h6{
+    font-size: 0.8rem;
+    padding: 20px 0;
+    margin: 0 !important;
+}
